@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #071528;
+    
+}
+
+/* Navigation Bar */
+#navbar{
+    background-image: url("images/your\ personal\ finance\ assistant.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:0px;
+}
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 25px;
+
+}
+#logo img {
+    /* border-radius: 100px; */
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    
+}
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    margin:auto;
+    margin-left: 200px;
+    
+}
+.nav-items{
+    position: absolute;
+    top: 1rem;
+    padding-left: 100px;
+
+}
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    color: #ffbc58;
+    display: block;
+    padding: 10px 30px;
+    margin: 5px 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #071528;
+    font-family: 'Ubuntu', sans-serif;
+}
+#navbar ul li a:hover{
+    color: rgb(166, 248, 178);
+    /* background-color: yellow; */
+}
+button{
+    padding: 18px;
+    margin:30px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 0;
+    background-color: rgb(202, 193, 243);  
+    width: 10rem; 
+    font-size: 1.5rem;
+}
+#button{
+    position: absolute;
+    right: 50px;
+    top: -8px;
+}
+#button a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Services Section */
+#our-services h1{
+    text-decoration: none;
+    margin-top: 60rem;
+    padding: 5px;
+    color: white;
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+#services{
+    margin: 30px;
+    display: flex;
+}
+#services .box{
+    /* border: 2px solid brown; */
+    margin: 15px 40px;
+    padding: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* position: absolute;
+    top: 12rem; */
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    
+}
+.box a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+#services .box :hover{
+    color: purple;
+    /* background-color: yellow; */
+}
+/* #services :hover{
+    border: 0px solid rgb(255, 0, 0);
+    background-color: rgb(227, 255, 229);
+    transform: skew(1.01deg);
+} */
+#services .box img{
+    height: 220px;
+    margin:auto;
+    display: block;
+    width: 270px;
+    
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+/* About Us Section */
+
+#about-us h1{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 8rem;
+}
+#about p{
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto 20rem;
+    margin-top: 15px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+/* Contact Section */
+#contact{
+    position: relative;
+    height: 500px;
+}
+#contact h1{
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    /* border: 2px solid black; */
+    padding: 4px;
+    border-radius: 15px;
+}
+#contact-box textarea, #contact-box input{
+    width: 100%;
+    padding: 0.5rem;
+    z-index: 1;
+    font-size: 1.1rem;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+#contact-box textarea:hover, #contact-box input:hover{
+    
+    border: 2px solid rgb(0, 65, 34);
+    border-radius: 10px;
+}
+
+#contact-box form{
+    width: 40%;
+    padding: 5px;
+}
+#contact-box label{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu';
+    color: whitesmoke;
+}
+footer{
+    /* font-size: 10px; */
+    border-radius: 5px;
+    border: 1px solid black;
+    padding:3px 8px 3px 8px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
